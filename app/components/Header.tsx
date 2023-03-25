@@ -2,8 +2,8 @@
 import { MoonIcon, SearchIcon } from '@chakra-ui/icons'
 import { ChakraBaseProvider, Hide, Show } from "@chakra-ui/react"
 import { GiHamburgerMenu } from "@react-icons/all-files/gi/GiHamburgerMenu";
-import {
-  Box, 
+import {  
+Box, 
   Image, 
   List, 
   ListItem, 
@@ -11,9 +11,7 @@ import {
   Button, 
   Flex,
   Link
-  
-} from "@chakra-ui/react"
-import NavMenu from './NavMenu';
+} from "@chakra-ui/react" 
 import Burger from './Burger';
 
 export default function Header() {
@@ -25,18 +23,19 @@ export default function Header() {
           <HStack>
         <Image src="/images/logo.webp" alt="logo" />
         
-        {/* <List>
+        <List>
         <Hide below='md'>
           <HStack align={"center"} spacing="5" ml="40px" fontWeight={"bold"}>
          
           <ListItem>Home</ListItem>
           <ListItem>About</ListItem>
           <ListItem>Contact</ListItem>        
+         
           </HStack>
           </Hide>
-        </List> */}
+        </List>
         <HStack spacing={"10"} pl="10">
-        <NavMenu />
+      
         </HStack>
         </HStack>
         {/* right are side */}
@@ -46,9 +45,10 @@ export default function Header() {
         {/* <Show below='md' >
         
         </Show> */}
-        <Show below='md'>
+        <Show below='md'>   
+           
         <GiHamburgerMenu size={25}/>
-          {/* <Burger/> */}
+        <Burger/>
         </Show>
         <Link href='https://www.piaic.org/' target={"_blank"}>
         <Button colorScheme='teal' variant='outline'> Go to PIAIC </Button>

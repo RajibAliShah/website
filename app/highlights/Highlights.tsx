@@ -11,16 +11,16 @@ import { MdHelpOutline } from "@react-icons/all-files/Md/MdHelpOutline";
 export default function Highlights() {
   return (
     <Box>
-    <Box textAlign={"center"}>
+    <Box ml="5" textAlign={{base: "left", md:"center"}}>
       <Text color={"#3182ce"} as="b">
       Highlights
       </Text>
       <Heading mt="5" fontWeight={"semibold"}>Why Us?</Heading>
-      <Text mt="3" ml={"200"} fontSize={"20px"}>Because these beautiful and responsive React components
+      <Text mt="3" ml="5" textAlign={{base: "left", md:"center"}} fontSize={"20px"}>Because these beautiful and responsive React components
          will help you realize your next idea in no time.</Text>
     </Box>
     <Container maxW={"1200"}>
-      <Flex gap={"5"}>
+      <Flex direction={{base: "column-reverse", md:"row"}} gap={"5"}>
     <Card align='center'>
   <CardHeader>
     <Center color={"blue.500"}>

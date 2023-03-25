@@ -13,7 +13,7 @@ export default function Faq() {
   return (
 <Box py={"10"}>
     <Container maxW={"1200"}>
-    <Flex >
+    <Flex flexDirection={{base: 'column', md:"row"}} >
         
 {/* left side */}
 <Box flex={"1"} textAlign={"left"}>

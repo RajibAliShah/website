@@ -6,7 +6,7 @@ export default function News() {
   return (
 <Box>
 <Container bg={"gray.50"} maxW="100%" py="14">
-    <Flex justifyContent={"space-around"}>
+    <Flex justifyContent={"space-around"} flexDirection={{base: 'column', md:"row"}}>
     <Box>
         <Heading fontWeight={"semibold"}>Join our Newletter</Heading>
         <Text>Dont miss any more news and subscribe to our newsletter today.</Text>

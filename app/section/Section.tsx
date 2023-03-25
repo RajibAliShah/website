@@ -23,10 +23,10 @@ export default function Section() {
   return (
     // main box start
     <Box>
-        <Box textAlign={"center"}>
+        <Box ml="5" textAlign={{base: "left", md:"center"}}>
         <Text color={"#3182ce"} as="b" >Features</Text>
         <Heading fontWeight={"semibold"}>What you can expect?</Heading>
-        <Text mt="5" ml={"200"} fontSize={"20px"}>A bundle of 220+ ready-to-use,
+        <Text mt="5" textAlign={{base: "left", md:"center"}} fontSize={"20px"}>A bundle of 220+ ready-to-use,
              responsive and accessible components with clever 
              structured sourcecode files.</Text>
     </Box>
