@@ -5,7 +5,7 @@ import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
 import { IoIosSpeedometer } from "@react-icons/all-files/io/IoIosSpeedometer";
 import { FaCommentDollar } from "@react-icons/all-files/fa/FaCommentDollar";
 import { IoMdSettings } from "@react-icons/all-files/io/IoMdSettings";
-import { MdHelpOutline } from "@react-icons/all-files/Md/MdHelpOutline";
+import { QuestionOutlineIcon } from '@chakra-ui/icons'
 
 
 export default function Highlights() {
@@ -69,9 +69,9 @@ export default function Highlights() {
 <Card align='center'>
   <CardHeader>
   <Center color={"blue.500"}>
-  <MdHelpOutline size={50}/>
+  <QuestionOutlineIcon h="30" w="30" />
   </Center>
-    <Heading size='md'> Support Us</Heading>
+    <Heading size='md' mt="5"> Support Us</Heading>
   </CardHeader>
   <CardBody>
     <Text align={"center"}>
