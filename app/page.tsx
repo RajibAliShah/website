@@ -1,5 +1,5 @@
 "use client"
-import { Box, ChakraProvider, Highlight } from "@chakra-ui/react"
+import { Box, ChakraProvider } from "@chakra-ui/react"
 import React from "react"
 import Header from "./components/Header"
 import Topcontainer from "./Topcontainer/Topcontainer"

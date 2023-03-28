@@ -1,7 +1,7 @@
 "use client"
 import { MoonIcon, SearchIcon } from '@chakra-ui/icons'
 import { ChakraBaseProvider, Hide, Show } from "@chakra-ui/react"
-import { GiHamburgerMenu } from "@react-icons/all-files/gi/GiHamburgerMenu";
+
 import {  
 Box, 
   Image, 
@@ -46,8 +46,6 @@ export default function Header() {
         
         </Show> */}
         <Show below='md'>   
-           
-        <GiHamburgerMenu size={25}/>
         <Burger/>
         </Show>
         <Link href='https://www.piaic.org/' target={"_blank"}>
