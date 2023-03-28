@@ -32,7 +32,7 @@ export default function Topcontainer() {
 <Link
 color={"blue.500"} 
 target={'_blank'} 
-href='https://www.linkedin.com/in/rajib-ali-shah-61869087/'>Rajin Ali Shah</Link></Text>
+href='https://www.linkedin.com/in/rajib-ali-shah-61869087/'>Rajib Ali Shah</Link></Text>
 </HStack>
 
 </Box>
